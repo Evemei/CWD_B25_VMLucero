@@ -1,0 +1,100 @@
+
+h1 {letter-spacing: 0.8;
+    font-weight: bold,; 
+    font-family: 'Elephant' ,sans-serif;
+    font-style:italic;
+}
+    
+h2 {
+    margin-top: 4%;
+    letter-spacing: 0.8;
+    font-weight: bold,; 
+    font-family: 'Curlz Mt', sans-serif;
+    font-style:italic;
+}
+
+h3 {
+        margin-top: 4%;
+        letter-spacing: 0.8;
+        font-weight: bold,; 
+        font-family: 'Berlin Sans FB', sans-serif;
+        font-style:italic;
+    }
+
+
+h6 {letter-spacing: 0.04;
+    font-weight: bold,; 
+    font-family: 'Cooper Black', sans-serif;
+    font-style:italic;
+}
+    
+h5 {letter-spacing: 0.04;
+    font-weight: bold,; 
+    font-family: 'Times New Roman', sans-serif;
+    font-style:italic;
+}
+h4 {letter-spacing: 1;
+    font-weight: bold; 
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-style:
+    fon
+}
+
+.everaynecafe-link {
+    font-weight: 120;
+    font-size: 13px;
+}
+
+.everaynecafe-link-small {
+    font-weight: 120;
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.everaynecafe {
+    margin: 10px 0px 10px;
+    position: fixed;
+}
+
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
+.fa-angle-up {
+    margin-right: 5px !important;
+}
+
+.fa-angle-down {
+    margin-right: 5px !important;
+}
+
+.sidenav-logo {
+    padding-top: 18px;
+}
+
+.arrow-drop{
+    padding-right: 5px;
+    
+}
+
+.footer-text {
+    font-weight: 200;
+    font-size: small;
+}

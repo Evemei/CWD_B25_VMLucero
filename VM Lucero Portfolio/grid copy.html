@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font awesome -->
+    <script src="https://kit.fontawesome.com/a745e08950.js" crossorigin="anonymous"></script>
+    <!--Font awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Grid</title>
+</head>
+    <body>
+        <div id="Our Cafe" class="section scrollspy"></div>
+        <h1 class="center red-text">Our Cafe</h1>
+        <div class="divider"></div>
+        <div class="container" >
+            <div class="row">
+                <div class="col s8">
+                    <p class="center">Everayne's Cafe was established on 2022. Everayne came from the owners daughters name Eviolette & Raynessa. </p>
+                    <div id="Meet the owners" class="section scrollspy">
+                    <a href="" class="btn waves-effect waves-light"> Meet the owners</a>
+                    </div>
+                    <br></br>
+                        <img src="IMAGES/mhamonchyxy.jpg"  alt="" class="responsive-img">
+                    <br><br>
+                    <div id="How we started?" class="section scrollspy"></div>
+                    <h2 class="purple-text"> How we started?</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col s2 m2 card-panel pink white-text">
+                            <p class=" center">Venue</p>
+                        </div>
+                        <div class="col s2 m2 card-panel red white-text">
+                            <p class="center">Menu</p>
+                        </div>
+                        <div class="col s2 m2 card-panel orange white-text">
+                            <p class="center">Cooking</p>
+                        </div>
+                        <div class="col s2 m2 card-panel pink darken-3 white-text">
+                            <p class="center">Baking</p>
+                        </div>
+                        <div class="col s2 m2 card-panel purple white-text">
+                            <p class="center">Crafting</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4 hide-on-small-only">
+                <img src="IMAGES/everaynecafe.jpg" alt="" class="responsive-img"></div>
+                        
+                        <a href="" class="red-text"><h5 class="center"> Home</h5> </a>
+                        
+                        <a href="" class="red-text"> <h5 class="center">Log In</h5> </a>
+                        
+                        <a href="" class="red-text"> <h5 class="center">Contact Us</h5></a>
+
+                    <!--ScrollSpy-->
+                    <ul class="section table-of-contents">
+                        <li>
+                            <a href=""><h6 class="center">Our Cafe</h6></a>
+                        </li> 
+
+                        <li>
+                            <a href=""><h6 class="center">Meet the owners</h6></a>
+                        </li>
+                        <li>
+                            <a href=""><h6 class="center">How We Started</h6></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+<div style="height: 1000px;"></div>
+
+       <!--Jquery CDN-->
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+       <!-- Compiled and minified JavaScript -->
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           <script>
+               $(document).ready(function(){
+        // materialbox init
+               $('.materialboxed').materialbox({
+                   inDuration: 1000,
+                   outDuration: 500
+               });
+       // Slider init
+               $('.slider').slider();
+               });
+           </script>
+   
+           <script> 
+               $(document).ready(function(){
+       //Tabs Init
+               $('.tabs').tabs();
+       //Sidenav Init
+               $('.sidenav').sidenav({
+                   edge: 'right' ,
+                   inDuration: 500,
+                   outDuration: 1000
+               });
+       //Dropdown Init
+               $(".dropdown-trigger").dropdown();    
+               });
+           </script>
+           <script>
+       //Floating Action Button Init
+               $(document).ready(function(){
+            $('.fixed-action-btn').floatingActionButton();
+               });
+               </script>
+            <script>
+        //scrollspy Init
+                $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+            });
+            </script>
+   </body>
+       </html>

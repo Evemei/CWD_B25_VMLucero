@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font awesome -->
+    <script src="https://kit.fontawesome.com/a745e08950.js" crossorigin="anonymous"></script>
+    <!--Font awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style-vm.css">
+    <title>VMLucero_Portfolio</title>
+    <head>
+    <style>
+      body {
+        background-image: url("purpleshade-bg.jpg") ;
+      }
+      </style>
+      </head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="purple lighten-2 nav-extended"> 
+          <div class="container">   
+            <div class="nav-wrapper">
+              <a href="VMLucero_Portfolio.html" class="brand-logo" target="_blank">
+                <i>𝓥𝓪𝓷𝓮𝓼𝓼𝓪 𝓜𝓪𝓮</i></a>
+                <a href="" class="sidenav-trigger" data-target="mobile-demo"> 
+                <i class="fa-solid fa-bars"></i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="aboutme.html" target="_blank">
+                    <h5>About Me!</h5></a></li>
+                    <li>
+                        <a href="" target="_blank"><h5>My Skills</h5></a></li>
+                    <li>
+                        <a href="" target="_blank"><h5>My Experiences</h5></a></li>
+                    <li>
+                        <a href="" target="_blank"><h5>Contact Me</h5></a></li>
+                        <li>
+                          <a href="" class="dropdown-trigger" data-target="dropdown1">
+                            <i class="material-icons">arrow_drop_down</i>
+                          </a>
+                          </li>
+                  </ul>
+                </div>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li>
+                      <a href="#!">Home</a>
+                    </li>
+                    <li>
+                      <a href="#!">My Certificates </a>
+                    </li>
+                    <li>
+                      <a href="#!">My Qualifications</a>
+                    </li>
+                    <li>
+                      <a href="#!">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+        <div>
+    </div>
+  </div>
+  <br>
+
+
+
+          <!--Jquery CDN-->
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+          <!-- Compiled and minified JavaScript -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+              <script>
+                  $(document).ready(function(){
+           // materialbox init
+                  $('.materialboxed').materialbox({
+                      inDuration: 1000,
+                      outDuration: 500
+                  });
+          // Slider init
+                  $('.slider').slider();
+                  });
+              </script>
+      
+              <script> 
+                  $(document).ready(function(){
+          //Tabs Init
+                  $('.tabs').tabs();
+          //Sidenav Init
+                  $('.sidenav').sidenav({
+                      edge: 'right' ,
+                      inDuration: 500,
+                      outDuration: 1000
+                  });
+          //Dropdown Init
+                  $(".dropdown-trigger").dropdown();    
+                  });
+              </script>
+              <script>
+          //Floating Action Button Init
+                  $(document).ready(function(){
+               $('.fixed-action-btn').floatingActionButton();
+                  });
+                  </script>
+               <script>
+           //scrollspy Init
+                   $(document).ready(function(){
+               $('.scrollspy').scrollSpy();
+               });
+               </script>
+      </body>
+</html>
